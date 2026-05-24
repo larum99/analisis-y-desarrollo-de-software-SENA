@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Prototipo</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <nav class="proto-nav"><a href="../index.html">Volver al índice</a></nav>
+    <header class="navbar">
+      <div class="navbar__logo"><strong>Hogar</strong>360</div>
+      <div class="navbar__right"><span>Compra</span><span>Renta</span><span>Vende</span><button class="btn" type="button">Ingresar</button></div>
+    </header>
+    <main style="padding:24px;">
+      <section class="filters">
+        <div class="field"><label>Ordenar por</label><select><option>Precio: menor a mayor</option></select></div>
+        <div class="field"><label>Buscar por ciudad</label><input value="Bogotá" /></div>
+      </section>
+      <section class="house-grid">
+        <article class="house-card">
+          <div class="img-wrap">
+            <img src="../../src/assets/images/default-house.png" alt="Casa 1" />
+            <span class="badge">Venta</span>
+          </div>
+          <div class="house-body"><h3>Casa Campestre Aurora</h3><p>Medellín</p><p style="color:#2563eb;font-size:24px;margin:8px 0;">$480,000,000</p><p>4 habitaciones · 3 baños</p></div>
+        </article>
+        <article class="house-card">
+          <div class="img-wrap">
+            <img src="../../src/assets/images/default-house.png" alt="Casa 2" />
+            <span class="badge">Venta</span>
+          </div>
+          <div class="house-body"><h3>Apartamento Vista Norte</h3><p>Bogotá</p><p style="color:#2563eb;font-size:24px;margin:8px 0;">$320,000,000</p><p>3 habitaciones · 2 baños</p></div>
+        </article>
+      </section>
+      <footer class="footer">© 2025 Hogar360. All rights reserved.</footer>
+    </main>
+
+    <section class="modal">
+      <div class="card form-grid">
+        <h3 style="margin:0;">Reservar visita</h3>
+        <div class="field"><label>Selecciona una visita</label><select><option>17/04/2026 - 10:00 AM a 11:00 AM</option></select></div>
+        <div class="field"><label>Correo electrónico</label><input value="comprador@correo.com" /></div>
+        <div class="actions"><button class="btn" type="button">Reservar</button></div>
+      </div>
+    </section>
+  </body>
+</html>

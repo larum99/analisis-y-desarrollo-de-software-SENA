@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Ubicaciones</title><link rel="stylesheet" href="../styles.css" /></head>
+  <body>
+    <nav class="proto-nav"><a href="../index.html">Volver al índice</a></nav>
+    <header class="navbar"><div class="navbar__logo"><strong>Hogar</strong>360</div><div class="navbar__right"><span>Bienvenido, Admin</span></div></header>
+    <div class="app-layout">
+      <aside class="sidebar"><ul><li>Dashboard</li><li>Categorías</li><li class="active">Ubicaciones</li><li>Propiedades</li><li>Usuarios</li><li>Visitas</li></ul></aside>
+      <main class="content">
+        <h1 class="page-title">Crear ubicación</h1>
+        <section class="card form-grid" style="margin-bottom:24px;">
+          <div class="field"><label>Departamento</label><select><option>Antioquia</option></select></div>
+          <div class="field"><label>Ciudad</label><select><option>Medellín</option></select></div>
+          <div class="field"><label>Sector</label><input value="El Poblado" /></div>
+          <div class="actions"><button class="btn" type="button">Crear</button></div>
+        </section>
+        <h2 class="page-subtitle">Buscar ubicaciones</h2>
+        <section class="card" style="max-width:500px;margin-bottom:24px;"><div class="field"><label>Buscar ubicación</label><input value="Bogotá" /></div></section>
+        <h2 class="page-subtitle">Resultados ordenables</h2>
+        <div class="table-wrap">
+          <table><thead><tr><th>ID</th><th>Departamento</th><th>Ciudad</th><th>Sector</th></tr></thead><tbody><tr><td>10</td><td>Cundinamarca</td><td>Bogotá</td><td>Chapinero</td></tr><tr><td>11</td><td>Antioquia</td><td>Medellín</td><td>Belén</td></tr></tbody></table>
+        </div>
+        <div class="pagination"><button>&lt;</button><button class="active">1</button><button>2</button><button>&gt;</button></div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Visitas</title><link rel="stylesheet" href="../styles.css" /></head>
+  <body>
+    <nav class="proto-nav"><a href="../index.html">Volver al índice</a></nav>
+    <header class="navbar"><div class="navbar__logo"><strong>Hogar</strong>360</div><div class="navbar__right"><span>Bienvenido, Seller</span></div></header>
+    <div class="app-layout">
+      <aside class="sidebar"><ul><li>Dashboard</li><li>Categorías</li><li>Ubicaciones</li><li>Propiedades</li><li class="active">Visitas</li></ul></aside>
+      <main class="content">
+        <h1 class="page-title">Crear visita</h1>
+        <section class="card form-grid" style="margin-bottom:24px;">
+          <div class="field"><label>Casa</label><select><option>Casa Campestre Aurora</option></select></div>
+          <div class="field"><label>Fecha de la visita</label><input type="date" value="2026-04-20" /></div>
+          <div class="field"><label>Hora de inicio</label><input value="10:00 AM" /></div>
+          <div class="field"><label>Hora de fin</label><input value="11:00 AM" /></div>
+          <div class="actions"><button class="btn" type="button">Crear</button></div>
+        </section>
+        <section class="card" style="margin-bottom:24px;">
+          <div class="form-grid" style="grid-template-columns:repeat(3,1fr);">
+            <div class="field"><label>Departamento</label><select><option>Cundinamarca</option></select></div>
+            <div class="field"><label>Ciudad</label><select><option>Bogotá</option></select></div>
+            <div class="field"><label>Sector</label><select><option>Usaquén</option></select></div>
+          </div>
+        </section>
+        <h2 class="page-subtitle">Visitas existentes</h2>
+        <div class="table-wrap">
+          <table><thead><tr><th>ID</th><th>Casa</th><th>Inicio</th><th>Fin</th><th>Ciudad</th></tr></thead><tbody><tr><td>101</td><td>Casa Campestre Aurora</td><td>20/04/2026 10:00</td><td>20/04/2026 11:00</td><td>Bogotá</td></tr><tr><td>102</td><td>Apto Vista Norte</td><td>22/04/2026 14:00</td><td>22/04/2026 15:00</td><td>Medellín</td></tr></tbody></table>
+        </div>
+        <div class="pagination"><button>&lt;</button><button class="active">1</button><button>2</button><button>&gt;</button></div>
+      </main>
+    </div>
+  </body>
+</html>
